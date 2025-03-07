@@ -24,13 +24,12 @@ class PostAdapter : ListAdapter<Post, PostAdapter.PostViewHolder>(PostDiffUtil()
 
         @SuppressLint("SetTextI18n")
         fun bind(post: Post) {
-            postText.text = post.text
-
             post.imageURL?.let {
                 postImage.visibility = View.VISIBLE
                 postImage.loadImage(it)
             }
 
+            postText.text = post.text
             likeButton.text = "Likes: ${post.likesAmount}"
             commentButton.text = "Comments:  ${post.commentsAmount}"
 
