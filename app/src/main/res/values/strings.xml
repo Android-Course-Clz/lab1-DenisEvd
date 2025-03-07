@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Lab1-DenisEvd</string>
+    <string name="app_name">App Name</string>
+    <string name="user_name">Denis Evdokimov</string>
+    <string name="subscribers_text">Subscribers:</string>
+    <string name="subscribes_text">Subscribes:</string>
+    <string name="posts_text">Posts:</string>
+    <string name="follow_button">Follow</string>
+    <string name="message_button">Write a message</string>
+    <string name="post_image">Post Image</string>
 </resources>
