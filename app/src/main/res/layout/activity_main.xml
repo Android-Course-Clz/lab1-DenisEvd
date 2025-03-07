@@ -56,12 +56,11 @@
             android:textSize="16sp"
             android:text="@string/subscribers_text" />
         <TextView
-            android:id="@+id/subscribersNumber"
+            android:id="@+id/subscribersAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:textSize="16sp"
-            android:text="100" />
+            android:textSize="16sp" />
         <TextView
             android:id="@+id/subscriptionsText"
             android:layout_width="wrap_content"
@@ -70,12 +69,11 @@
             android:text="@string/subscribes_text"
             android:layout_marginStart="16dp" />
         <TextView
-            android:id="@+id/subscriptionsNumber"
+            android:id="@+id/subscriptionsAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:textSize="16sp"
-            android:text="50" />
+            android:textSize="16sp" />
         <TextView
             android:id="@+id/postsText"
             android:layout_width="wrap_content"
@@ -84,12 +82,11 @@
             android:text="@string/posts_text"
             android:layout_marginStart="16dp" />
         <TextView
-            android:id="@+id/postsNumber"
+            android:id="@+id/postsAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:textSize="16sp"
-            android:text="20" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
